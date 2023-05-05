@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>World Cup Trivia</h1>
+        
+        <form>
+            <div class="question one">
+                <label> Q1: Which player has the most World Cups wins?</label>   
+                <div class="answers">
+                    <div class="options"> <span><input type="radio" name="QOne" id="correctOne">Pele</span></div>
+                    <div class="options"><input type="radio" name="QOne">Cafu</div>
+                    <div class="options"><input type="radio" name="QOne">Ronaldo</div>
+                </div>
+            </div>
+            <div class="question two">
+                <label> Q2: How many countries have won the World Cup so far?</label>   
+                <div class="answers">
+                    <div class="options"><input type="radio" name="QTwo">10</div>
+                    <div class="options"><input type="radio" name="QTwo">12</div>
+                    <div class="options"><span><input type="radio" name="QTwo" id="correctTwo">8</span></div>
+                </div>
+            </div>
+            <div class="question three">
+                <label> Q3: Which country won the first ever World Cup?</label>   
+                <div class="answers">
+                    <div class="options"><span><input type="radio" name="QThree" id="correctThree">Uruguay</span></div>
+                    <div class="options"><input type="radio" name="QThre">Brazil</div>
+                    <div class="options"><input type="radio" name="QThre" >Argentina</div>
+                </div>
+            </div>
+            <div class="question four">
+                <label> Q4: Which player has the most captain appearances at the World Cup finals?</label>   
+                <div class="answers">
+                    <div class="options"><input type="radio" name="QFour">Ronaldo</div>
+                    <div class="options"><input type="radio" name="QFour">Zinedine Zidane</div>
+                    <div class="options"><span><input type="radio" name="QFour" id="correctFour">Diego Maradona</span></div>
+                </div>
+            </div>
+            <div class="question five">
+                <label> Q5: Who is the Youngest World Cup winner?</label>   
+                <div class="answers">
+                    <div class="options"><input type="radio" name="QFive">Ronaldinho</div>
+                    <div class="options"><span><input type="radio" name="QFive" id="correctFive">Pele</span></div>
+                    <div class="options"><input type="radio" name="QFive">Ronaldo</div>
+                </div>
+            </div>
+            <div class="question six">
+                <label> Q6: Which country will be hosting the Next (2022) World Cup?</label>   
+                <div class="answers">
+                    <div class="options"><input type="radio" name="QSix">France</div>
+                    <div class="options"><input type="radio" name="QSix">USA/Mex/Canada</div>
+                    <div class="options"><span><input type="radio" name="QSix" id="correctSix">Qatar</span></div>
+                </div>
+            </div>
+            <div class="question seven">
+                <label> Q7: Which country has lost the World Cup Final the most times?</label>   
+                <div class="answers">
+                    <div class="options"><input type="radio" name="QSeven">France</div>
+                    <div class="options"><span><input type="radio" name="QSeven"  id="correctSeven">Germany</span></div>
+                    <div class="options"><input type="radio" name="QSeven">England</div>
+                </div>
+            </div>
+            <div class="question eight">
+                <label> Q8: Which team's nickname is The Three Lions?</label>   
+                <div class="answers">
+                    <div class="options"><input type="radio" name="QEight">France</div>
+                    <div class="options"><input type="radio" name="QEight">Germany</div>
+                    <div class="options"><span><input type="radio" name="QEight" id="correctEight">England</span></div>
+                </div>
+            </div>
+            <div class="question nine">
+                <label> Q9: Who is the most famous World Cup Referee?</label>   
+                <div class="answers">
+                    <div class="options"><input type="radio" name="QNine"> Howard Webb</div>
+                    <div class="options"><span><input type="radio" name="QNine"  id="correctNine">Pierluigi Collina</span></div>
+                    <div class="options"><input type="radio" name="QNine">Ravshan Irmatov</div>
+                </div>
+            </div>
+            <div class="question ten">
+                <label> Q10: Which country has competed in every World Cup since the first one in 1930?</label>   
+                <div class="answers">
+                    <div class="options"><span><input type="radio" name="QTen" id="correctTen"> Brazil</span></div>
+                    <div class="options"><input type="radio" name="QTen">Italy</div>
+                    <div class="options"><input type="radio" name="QTen">Mexico</div>
+                </div>
+            </div>
+        </form>
+
+            <div class="buttons">
+                <button class="btn" type="submit">How many goals have you scored?</button> 
+                <p id="showResults"></p>
+                <button class="btn2" type="submit">Show correct answers</button> 
+            </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
